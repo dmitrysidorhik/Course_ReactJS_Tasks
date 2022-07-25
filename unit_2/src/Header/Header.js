@@ -1,10 +1,12 @@
 import Nav from "./Nav";
 
-function Header() {
+function Header(props) {
   return (
     <header>
-      <h1>site_name</h1>
-      <h2>site_title</h2>
+      <h1>{props.siteData.site_name}</h1>
+      <h2>{props.siteData.site_title}</h2>
+
+      <Nav nav={props.siteData.nav}/>
     </header>
   );
 }

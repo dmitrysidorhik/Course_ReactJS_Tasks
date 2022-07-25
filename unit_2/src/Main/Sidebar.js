@@ -1,5 +1,3 @@
-import Nav from "../Header/Nav";
-
 function Sidebar() {
   return (
     <sidebar>
