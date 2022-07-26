@@ -1,6 +1,8 @@
-function Header() {
+function Header(props) {
+
+
   return (
-    <header>
+    <nav>
       <ul>
         <li>
           <a href="/">Главная</a>
@@ -12,7 +14,7 @@ function Header() {
           <a href="/cat">Категории</a>
         </li>
       </ul>
-    </header>
+    </nav>
   );
 }
 
